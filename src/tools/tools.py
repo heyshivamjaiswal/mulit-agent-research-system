@@ -18,7 +18,7 @@ load_dotenv()
 tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
 @tool
-def web_serach(query: str)->str:
+def web_searach(query: str)->str:
     """Search the web for the recent and reliable information on a topic. Return Titles ,URLs and snippets."""
     results = tavily.search(query=query, max_results=4)
 
