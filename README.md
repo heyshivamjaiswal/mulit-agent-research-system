@@ -2,8 +2,7 @@
 
 A multi-agent research assistant that takes a topic, searches the web, reads the most relevant source in depth, drafts a structured report, and critiques its own output — all through a set of coordinating LangChain agents and chains, wrapped in a custom Streamlit interface.
 
-Live demo: <!-- add deployed link here -->
-
+### Live demo: https://mulit-agent-research-system.onrender.com/
 ---
 
 ## Why this project exists
